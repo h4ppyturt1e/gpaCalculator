@@ -1,0 +1,57 @@
+Fall 2020
+CSC	110	A03	Fundamentals of Programming I	1.50	94%   A+	9	1.50			77%86
+CSC	110	B09	Fundamentals of Programming I	0.00						
+MATH	122	A05	Logic and Foundations	1.50	90%   A+	9	1.50			63%76
+MATH	151	A02	Finite Mathematics	1.50	92%   A+	9	1.50			74%151
+MUS	207	A01	Music, Science and Computers	1.50	92%   A+	9	1.50			79%43
+Spring 2021
+ATWP	135	A31	Academic Reading and Writing	1.50	78%   B+	6	1.50			75%25
+CSC	106	A01	The Practice of Computer Science	1.50	99%   A+	9	1.50			77%33
+CSC	106	B07	The Practice of Computer Science	0.00						
+CSC	115	A01	Fundamentals of Programming II	1.50	91%   A+	9	1.50			75%102
+CSC	115	B03	Fundamentals of Programming II	0.00						
+MATH	101	A04	Calculus II	1.50	84%   A-	7	1.50			72%195
+MATH	101	T03	Calculus II	0.00		
+Summer 2021
+SENG	265	A01	Software Development Methods	1.50	88%   A	8	1.50			70%76
+SENG	265	B03	Software Development Methods	0.00						
+Fall 2021
+CSC	130	A01	World Wide Web and Mobile
+Applications	1.50	93%   A+	9	1.50			82%119
+CSC	130	B04	World Wide Web and Mobile
+Applications	0.00						
+CSC	225	A01	Algorithms and Data Structures I	1.50	86%   A	8	1.50			78%140
+CSC	225	B05	Algorithms and Data Structures I	0.00						
+CSC	230	A01	Introduction to Computer
+Architecture	1.50	93%   A+	9	1.50			80%138
+CSC	230	B05	Introduction to Computer
+Architecture	0.00						
+MATH	211	A03	Matrix Algebra I	1.50	80%   A-	7	1.50			67%90
+Spring 2022
+CSC	226	A01	Algorithms and Data Structures II	1.50	82%   A-	7	1.50			75%172
+CSC	226	B03	Algorithms and Data Structures II	0.00						
+ENGR	240	A02	Technical Writing	1.50	90%   A+	9	1.50			85%29
+MATH	202	A01	Intermediate Calculus for CSC and
+EOS	1.50	73%   B	5	1.50			65%116
+MATH	202	T01	Intermediate Calculus for CSC and
+EOS	0.00						
+STAT	260	A01	Introduction to Probability and
+Statistics I	1.50	80%   A-	7	1.50			66%122
+Summer 2022
+ES	240	A01	Ecological Processes	1.50	80%   A-	7	1.50			77%111
+PHIL	201	A01	Critical Thinking	1.50	78%   B+	6	1.50			74%293
+Fall 2022
+CSC	305	A01	Introduction to Computer Graphics	1.50	85%   A	8	1.50			75%113
+CSC	305	B02	Introduction to Computer Graphics	0.00						
+CSC	370	A01	Database Systems	1.50	75%   B	5	1.50			77%131
+MUS	111	A01	Rudiments of Music	1.50	94%   A+	9	1.50			86%78
+SENG	310	A01	Human Computer Interaction	1.50	91%   A+	9	1.50			78%76
+SENG	310	B02	Human Computer Interaction	0.00	
+Spring 2023
+BIOL	400	A01	History of Biology	1.50	71%   B-	4	1.50			78%255
+CSC	320	A01	Foundations of Computer Science	1.50	68%   C+	3	1.50			68%140
+CSC	320	T02	Foundations of Computer Science	0.00						
+CSC	360	A01	Operating Systems	1.50	81%   A-	7	1.50			78%95
+CSC	360	T01	Operating Systems	0.00						
+CSC	473	A01	Fundamentals of Computer Animation	1.50	95%   A+	9	1.50			76%41
+CSC	473	B03	Fundamentals of Computer Animation	0.00		

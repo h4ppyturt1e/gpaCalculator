@@ -33,6 +33,9 @@ class Course:
     
     def addData(self, term, data):
         # print(data)
+        if "%" not in data[-1]:
+            return False
+        
         self.academicTerm = term
         self.faculty = data[0]
         self.courseCode = data[1]
@@ -48,6 +51,7 @@ class Course:
         self.comparativeMean = int(mean)
         self.classSize = int(size)
         # print(self)
+        return True
     
     def get43grade(self):
         return self.gradeDict[self.letterGrade]
@@ -87,6 +91,7 @@ class Student:
         res += f"GPA 9         :{self.gpa9: .2f}\n"
         res += f"GPA 4.3       :{self.gpa43: .2f}\n"
         res += f"Average Score :{self.score: .2f}%\n"
+        res += f"Total Units: {self.units}\n"
         return res
 
     def addCourse(self, course):
@@ -114,6 +119,7 @@ class Student:
             [sg.Text(f"GPA 9: {self.gpa9:.2f}")],
             [sg.Text(f"GPA 4.3: {self.gpa43:.2f}")],
             [sg.Text(f"Average Score: {self.score:.2f}%")],
+            [sg.Text(f"Total Units: {self.units}")],
             [sg.Button("Close")]
         ]
         
@@ -129,10 +135,10 @@ class Student:
         # Close the window
         window.close()
 
-def main():
+def main(fn):
     s = Student("Ryan Nicholas Permana")
     
-    with open("gpa_stats.txt", "r") as f:
+    with open(fn, "r") as f:
         data = [line.rstrip() for line in f.readlines()]
         
         termDict = {}
@@ -148,18 +154,23 @@ def main():
         
         for term in termDict:
             courses = termDict[term]
+            print(f"{term}\n")
             for course in courses:
                 c = Course()
                 course = course.split()
-                if len(course) >= 10: 
-                    c.addData(term, course)
-                    s.addCourse(c)
+                if not c.addData(term, course):
+                    continue
+                print(f"    {c.faculty} {c.courseCode}")
+                s.addCourse(c)
+            print()
     
     s.getAverages()
     print(s)
     s.displayGUI()
     
 if __name__ == '__main__':
-    main()
+    fn = "test_stats.txt"
+    fn = "gpa_stats.txt"
+    main(fn)
     
         

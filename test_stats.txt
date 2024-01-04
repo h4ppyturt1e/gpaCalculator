@@ -1,0 +1,8 @@
+Fall 2021
+CSC	130	A01	World Wide Web and Mobile Applications	1.50	93%   A+	9	1.50			82%119
+CSC	130	B04	World Wide Web and Mobile Applications	0.00						
+CSC	225	A01	Algorithms and Data Structures I	1.50	86%   A	8	1.50			78%140
+CSC	225	B05	Algorithms and Data Structures I	0.00						
+CSC	230	A01	Introduction to Computer Architecture	1.50	93%   A+	9	1.50			80%138
+CSC	230	B05	Introduction to Computer Architecture	0.00						
+MATH	211	A03	Matrix Algebra I	1.50	80%   A-	7	1.50			67%90
